@@ -7,6 +7,6 @@ The router receives a packet that consists of data and the address that the pack
 
 If Setup mode is on: The Routing Table is filled in. By the end of the Setup process the Routing Table stored the new input addresses and uses them in order to direct any data or message to its corresponding port.
 
-If Setup mode is off: The given input address is searched in the Routing Table. The output would be the port relevant for that specific address.
+If Setup mode is off: The given input address is searched in the Routing Table. The output will be the port relevant for that specific address.
 
 project files - router.circ is the Logisim file. In addition there are .png files(images of the circuit's modules in the project) encoder1.png, encoder2.png, encoder3.png, addresses.png, ports.png, compare.png, and router.png.
